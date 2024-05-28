@@ -1,0 +1,130 @@
+body {
+  background-color: rgb(176, 176, 176);
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-width: 500px;
+}
+
+.header {
+  font-family: "Poetsen One", sans-serif;
+  font-size: 40px;
+  font-weight: 500;
+  color: rgb(0, 76, 0);
+}
+
+.main form {
+  width: 100%;
+  background-color: rgba(5, 0, 79, 0.8);
+  border: 2px solid rgb(0, 255, 157);
+  border-radius: 5px;
+  padding: 0 30px 30px 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main form p {
+  font-family: "Rubik", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+#user-input {
+  outline: none;
+  border: none;
+  box-sizing: none;
+  border-radius: 2px;
+  box-shadow: 2px 2px 2px rgb(0, 0, 0);
+  width: 100%;
+  padding: 5px;
+  margin: 0 0 20px 0;
+  font-family: "Roboto Slab", serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+
+#check-btn {
+  border: none;
+  padding: 10px;
+  box-sizing: border-box;
+  box-shadow: 2px 2px 2px rgb(0, 0, 0);
+  border-radius: 3px;
+  font-family: "Poetsen One", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: #a52a2a;
+  background-color: #ffa500;
+  cursor: pointer;
+  transition: 0.35s;
+}
+#check-btn:hover {
+  background-color: #d38900;
+  box-shadow: none;
+}
+
+.result-holder {
+  width: 100%;
+  background-color: rgba(65, 65, 65, 0.8);
+  border: 2px solid rgb(114, 0, 146);
+  border-radius: 5px;
+  margin: 5px 0 0 0;
+  padding: 10px 30px 10px 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#result-holder {
+  width: 100%;
+  margin: 0 0 10px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#clear-btn {
+  border: none;
+  padding: 10px;
+  box-sizing: border-box;
+  box-shadow: 2px 2px 2px rgb(0, 0, 0);
+  border-radius: 3px;
+  font-family: "Poetsen One", sans-serif;
+  font-size: 17px;
+  font-weight: 300;
+  color: #ffa500;
+  background-color: #a52a2a;
+  cursor: pointer;
+  transition: 0.35s;
+}
+#clear-btn:hover {
+  background-color: #800e0e;
+  box-shadow: none;
+}
+
+#results-div {
+  width: 100%;
+  padding: 15px;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  border-bottom: 1px solid gray;
+  text-align: center;
+}
